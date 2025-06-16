@@ -20,7 +20,7 @@ export default function DonationForm() {
   /* ───────── Kirim TX ───────── */
   const {
     sendTransaction,
-    isLoading: isSending,
+    isPending: isSending,
     data: txData,
     error: txError,
     reset: resetTx,
