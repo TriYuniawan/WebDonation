@@ -10,7 +10,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href={"/"}>
           <img
-            src="/logo.svg"
+            src="/Logo.svg"
             alt="nyan"
             className="h-8 sm:h-10 w-auto object-contain"
           />
