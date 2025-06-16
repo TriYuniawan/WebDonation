@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport Box from \"@/box/page\";\n\nexport default function Home() {\n  return <>{/* <Box /> */}</>;\n}\n"],"names":[],"mappings":";;;;AAAA;;AAIe,SAAS;IACtB,qBAAO;AACT;KAFwB","debugId":null}}]
-}

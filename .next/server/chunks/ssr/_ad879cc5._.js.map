@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/page.tsx"],"sourcesContent":["\"use client\";\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <Navbar />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;;;;;;AAGP","debugId":null}},
-    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}

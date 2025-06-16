@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/components/navbar.tsx"],"sourcesContent":["\"use client\";\r\nimport Link from \"next/link\";\r\n\r\nexport default function Navbar() {\r\n  return (\r\n    <nav className=\"bg-blue-600 text-white px-6 py-4 shadow-md\">\r\n      <ul className=\"flex space-x-6\">\r\n        <li className=\"flex gap-4\">\r\n          <Link href=\"/\">Home</Link>\r\n          <Link href=\"/products/page.tsx\">Product</Link>\r\n        </li>\r\n      </ul>\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAG,WAAU;sBACZ,cAAA,8OAAC;gBAAG,WAAU;;kCACZ,8OAAC,4JAAA,CAAA,UAAI;wBAAC,MAAK;kCAAI;;;;;;kCACf,8OAAC,4JAAA,CAAA,UAAI;wBAAC,MAAK;kCAAqB;;;;;;;;;;;;;;;;;;;;;;AAK1C","debugId":null}},
-    {"offset": {"line": 94, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/page.tsx"],"sourcesContent":["\"use client\";\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <Navbar />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC,4HAAA,CAAA,UAAM;;;;;;AAGb","debugId":null}}]
-}

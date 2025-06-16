@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/products/%5Bid%5D/page.tsx"],"sourcesContent":["export default function Product() {\r\n  return <h1> ini halaman Product</h1>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;kBAAG;;;;;;AACb","debugId":null}},
-    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/components/navbar.tsx"],"sourcesContent":["\"use client\";\r\nimport Link from \"next/link\";\r\nimport Product from \"../products/[id]/page\";\r\n\r\nexport default function Navbar() {\r\n  return (\r\n    <nav className=\"bg-blue-600 text-white px-6 py-4 shadow-md\">\r\n      <ul className=\"flex space-x-6\">\r\n        <li className=\"flex gap-4\">\r\n          <Link href=\"/\">Home</Link>\r\n          <Link href={Product}>Product</Link>\r\n        </li>\r\n      </ul>\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAG,WAAU;sBACZ,cAAA,8OAAC;gBAAG,WAAU;;kCACZ,8OAAC,4JAAA,CAAA,UAAI;wBAAC,MAAK;kCAAI;;;;;;kCACf,8OAAC,4JAAA,CAAA,UAAI;wBAAC,MAAM,kIAAA,CAAA,UAAO;kCAAE;;;;;;;;;;;;;;;;;;;;;;AAK/B","debugId":null}},
-    {"offset": {"line": 116, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/page.tsx"],"sourcesContent":["\"use client\";\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <Navbar />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC,4HAAA,CAAA,UAAM;;;;;;AAGb","debugId":null}}]
-}
