@@ -47,7 +47,7 @@ export default function Home() {
         <Fly />
         <div className="hidden md:flex w-full md:w-auto justify-center mb-30 ">
           <Image
-            src="/gemini.png"
+            src="/Logo.svg"
             alt="Character"
             width={500}
             height={300}
