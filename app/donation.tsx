@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import { Toaster, toast } from "react-hot-toast";
 
-const DONATION_ADDRESS = process.env.DONATION_ADDRESS;
+const DONATION_ADDRESS = "0x9706F05712b354BA8950373Ed608FBfF2e1F8C96";
 
 export default function DonationForm() {
   /* ───────── Wagmi hooks ───────── */
@@ -24,7 +24,7 @@ export default function DonationForm() {
     data: txData,
     error: txError,
     reset: resetTx,
-  } = useSendTransaction({ chainId: 11155111 });
+  } = useSendTransaction();
 
   /* ───────── Local state ───────── */
   const [amount, setAmount] = useState("");
@@ -96,9 +96,7 @@ export default function DonationForm() {
           </button>
 
           {(formError || txError) && (
-            <p className="mt-3 text-red-600 text-sm">
-              {formError || txError.message}
-            </p>
+            <p className="mt-3 text-red-600 text-sm"></p>
           )}
         </div>
       </div>
@@ -123,9 +121,7 @@ export default function DonationForm() {
 
               <p className="text-sm mb-4">
                 {amount}&nbsp;ETH terkirim ke&nbsp;
-                <span className="font-mono break-all">
-                  {DONATION_ADDRESS.slice(0, 6)}…{DONATION_ADDRESS.slice(-4)}
-                </span>
+                <span className="font-mono break-all"></span>
               </p>
 
               <button
