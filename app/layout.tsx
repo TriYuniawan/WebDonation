@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Yonlinoku",
+  title: "Yinlinoku",
   description: "Donation Platfofrm",
 };
 
