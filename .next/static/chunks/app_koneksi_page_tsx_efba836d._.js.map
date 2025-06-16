@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Nextjs/nextjs-esentials/app/koneksi/page.tsx"],"sourcesContent":["\"use client\";\r\nimport { promises } from \"dns\";\r\nimport { useState } from \"react\";\r\nexport default function Product() {\r\n  const [products, setProduct] = useState([]);\r\n\r\n  async function fetchData() {\r\n    const res = await fetch(\"data.json\");\r\n    const products = await res.json();\r\n    setProduct(products);\r\n\r\n    return (\r\n      <>\r\n        <h1> Ini adalah data</h1>\r\n        <h2>\r\n          {products.map((product) => {\r\n            <div key={product.id}>\r\n              <p key={product.name}></p>\r\n              <p key={product.text}></p>\r\n            </div>;\r\n          })}\r\n        </h2>\r\n      </>\r\n    );\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAGe,SAAS;;IACtB,MAAM,CAAC,UAAU,WAAW,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE,EAAE;IAE1C,eAAe;QACb,MAAM,MAAM,MAAM,MAAM;QACxB,MAAM,WAAW,MAAM,IAAI,IAAI;QAC/B,WAAW;QAEX,qBACE;;8BACE,6LAAC;8BAAG;;;;;;8BACJ,6LAAC;8BACE,SAAS,GAAG,CAAC,CAAC;sCACb,6LAAC;;8CACC,6LAAC,SAAO,QAAQ,IAAI;;;;;8CACpB,6LAAC,SAAO,QAAQ,IAAI;;;;;;2BAFZ,QAAQ,EAAE;;;;;oBAItB;;;;;;;;IAIR;AACF;GAtBwB;KAAA","debugId":null}}]
+}
