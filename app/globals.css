@@ -3,7 +3,7 @@
 
 :root {
   --background: #ffffff; /* Putih */
-  --foreground: #000000; /* Hitam */
+  --foreground: #000000;
 }
 
 @theme inline {
